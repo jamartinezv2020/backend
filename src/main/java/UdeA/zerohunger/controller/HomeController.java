@@ -11,9 +11,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-
-
-
 @RestController
 @RequestMapping("/homes/")
 @CrossOrigin(origins = "*")
@@ -40,4 +37,3 @@ public class HomeController {
         return ResponseEntity.status(HttpStatus.OK).body(home);
     }
 }
-
